@@ -5,7 +5,7 @@ $fileList = glob('*');
 //Loop through the array that glob returned.
 foreach($fileList as $filename){
    //Simply print them out onto the screen.
-    $posts[] = array('lazyload'=> $filename, 'url'=> $filename.'_high','tag'=>$filename,'key'=>$filename);
+    $posts[] = array('lazyload'=> $filename, 'url'=> $filename,'tag'=>$filename,'key'=>$filename);
 }
 
 $response['posts'] = $posts;
